@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632baaa366f023c41b62ace1ce3e809f, type: 3}
   m_Name: Theme
   m_EditorClassIdentifier: 
-  primary_bg: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+  primary_bg: {r: 1, g: 0.86226416, b: 0.86226416, a: 1}
   primary_text: {r: 1, g: 1, b: 1, a: 1}
-  secondary_bg: {r: 0.1837842, g: 0.990566, b: 0.7246012, a: 0}
+  secondary_bg: {r: 1, g: 0.39999998, b: 0.39999998, a: 1}
   secondary_text: {r: 0.045757193, g: 0.04524148, b: 0.047169805, a: 1}
   tertiary_bg: {r: 0.2508306, g: 0.45330772, b: 0.8962264, a: 1}
   tertiary_text: {r: 0.2509804, g: 0.87058824, b: 0.8980392, a: 1}

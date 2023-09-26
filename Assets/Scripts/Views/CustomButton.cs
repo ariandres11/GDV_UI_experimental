@@ -12,7 +12,7 @@ namespace GDV_UI
 {
     public class CustomButton: CustomUIComponent
     {
-        public ThemeSO theme;
+        
         public Style style;
         public UnityEvent onClick;
 
@@ -25,6 +25,9 @@ namespace GDV_UI
         }
 
         public override void Configure(){
+            ThemeSO theme = GetMainTheme();
+            if (theme == null) return;
+
             ColorBlock cb = button.colors;
             cb.normalColor = theme.GetBackgroundColor(style);
             button.colors = cb;

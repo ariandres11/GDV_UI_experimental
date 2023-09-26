@@ -36,8 +36,8 @@ namespace GDV_UI
             verticalLayoutGroup.spacing = viewData.spacing;
             //coloca el color que se le diga desde el theme
             imageTop.color = viewData.theme.primary_bg;
-            imageCenter.color = viewData.theme.primary_bg;
-            imageBottom.color = viewData.theme.primary_bg;
+            imageCenter.color = viewData.theme.secondary_bg;
+            imageBottom.color = viewData.theme.tertiary_bg;
         } 
         
 
